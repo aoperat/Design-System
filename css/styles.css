@@ -125,5 +125,147 @@
     text-decoration: underline;
   }
   
-  /* ... */
+  /* Alerts */
+.alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  
+  .alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  .alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+  }
+  
+  /* Badges */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .badge-primary {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .badge-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  .badge-success {
+    background-color: #28a745;
+color: #ffffff;
+}
+
+.badge-danger {
+background-color: #dc3545;
+color: #ffffff;
+}
+
+.badge-warning {
+background-color: #ffc107;
+color: #212529;
+}
+
+.badge-info {
+background-color: #17a2b8;
+color: #ffffff;
+}
+
+/* Modals */
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 80%;
+max-width: 500px;
+background-color: #ffffff;
+border: 1px solid #888;
+border-radius: 0.25rem;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .modal-header,
+    .modal-footer {
+    padding: 1rem;
+    border-bottom: 1px solid #888;
+    }
+    
+    .modal-header {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .modal-body {
+    padding: 1rem;
+    }
+    
+    .modal-title {
+    margin: 0;
+    font-size: 1.5rem;
+    }
+    
+    .close-modal {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    }
+    /* ... */
+
+
+    
+
+
+
+  
+  
   
